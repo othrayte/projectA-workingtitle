@@ -24,3 +24,18 @@
     along with ProjectA.  If not, see <http://www.gnu.org/licenses/>.
 """
 
+class Block(object):
+    """
+    A block
+    """
+    
+    x = Attribute()
+    y = Attribute()
+    width = Attribute()
+    height = Attribute()
+    
+    left = x
+    top = y
+    right = x + width
+    bottom = y + height
+    

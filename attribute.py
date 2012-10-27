@@ -24,3 +24,10 @@
     along with ProjectA.  If not, see <http://www.gnu.org/licenses/>.
 """
 
+import link
+
+class Attribute(link.SingleLinkable):
+    """
+    An attribute
+    """
+    

@@ -1,0 +1,14 @@
+#!wing
+#!version=4.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+proj.file-list = [loc('attribute-test.py'),
+                  loc('attribute.py'),
+                  loc('block.py'),
+                  loc('link.py'),
+                  loc('mutation.py'),
+                  loc('projectA-wt.py'),
+                  loc('README.md')]
+proj.file-type = 'shared'
